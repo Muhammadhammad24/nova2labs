@@ -1,0 +1,14 @@
+<svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-label="nova2labs" style="color:#0B1220">
+  
+  <style>
+    @media (prefers-color-scheme: dark) { :root { color: #f0f4ff; } }
+  </style>
+  <g stroke-width="22" stroke-linecap="round" stroke-linejoin="round">
+    
+    <path stroke="currentColor" d="M64,196 L64,108 C64,80 128,80 128,108 L128,196"></path>
+    
+    <path stroke="#15C0E0" d="M150,116 C150,86 214,86 213,120 C212,150 156,184 148,200 L216,200"></path>
+  </g>
+  
+  <circle cx="50" cy="196" r="11" fill="#15C0E0"></circle>
+</svg>

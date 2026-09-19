@@ -1,0 +1,6 @@
+# nova2labs — https://www.nova2labs.com
+User-agent: *
+Allow: /
+
+# Search engines find every page through the sitemap.
+Sitemap: https://www.nova2labs.com/sitemap.xml
