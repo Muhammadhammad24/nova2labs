@@ -1,0 +1,27 @@
+<svg viewBox="0 0 452 140" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-label="nova2labs" style="color:#0B1220">
+  <g stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M26,110 L26,72 A14 14 0 0 1 54,72 L54,110"></path>
+    <path d="M54,110 C60,108 62,93 66,85"></path>
+    <circle cx="92" cy="84" r="26"></circle>
+    <path d="M118,84 C123,78 125,66 128,58"></path>
+    <path d="M128,58 L146,110 L164,58"></path>
+    <path d="M164,58 C168,66 168,80 170,86"></path>
+    <circle cx="192" cy="88" r="22"></circle>
+    <path d="M214,58 L214,110"></path>
+    <path d="M214,110 L226,110"></path>
+    <path d="M263,110 L272,110"></path>
+    <path d="M272,30 L272,110"></path>
+    <path d="M272,110 C282,111 286,99 290,88"></path>
+    <circle cx="312" cy="88" r="22"></circle>
+    <path d="M334,58 L334,110"></path>
+    <path d="M334,110 L348,110"></path>
+    <path d="M348,30 L348,110"></path>
+    <circle cx="368" cy="88" r="22"></circle>
+    <path d="M390,88 C396,80 402,74 407,69"></path>
+    <path d="M431,67 C431,54 410,53 408,68 C406,80 431,80 429,95 C427,110 406,110 404,98"></path>
+    <path d="M18,110 L26,110"></path>
+  </g>
+  <path d="M227,60 C227,42 258,40 259,61 C260,76 242,87 230,99 L226,110 L263,110" stroke="#0099B8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"></path>
+  <circle cx="14" cy="110" r="7.5" fill="#16202E"></circle>
+  <circle cx="14" cy="110" r="3" fill="#16202E"></circle>
+</svg>
