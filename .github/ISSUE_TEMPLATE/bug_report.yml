@@ -1,0 +1,24 @@
+name: Bug report
+description: Something on the site is broken or looks wrong.
+labels: [bug]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: URL where it happens.
+      placeholder: https://www.nova2labs.com/services
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you saw, and what you expected instead.
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Browser and device
+      placeholder: Safari 18, iPhone 15, dark mode
