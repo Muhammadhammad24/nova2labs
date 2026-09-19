@@ -42,8 +42,7 @@ form delivers straight to the business mailbox over SMTP.
   seed, in the site's own colour tokens. Every placement is unique, and they all
   follow the theme.
 - **A designed light and dark theme.** Colours are OKLCH tokens in `styles.css`.
-  The 3D service icons ship in a separate variant for each theme, and
-  `scripts/recolor-icons.py` regenerates them from the source set.
+  The 3D service icons ship in a separate variant for each theme.
 - **Lead capture that doesn't depend on a third party.** `/api/lead` validates the
   input on the server and sends through the company's own SMTP mailbox with Nodemailer. If SMTP
   is down it falls back to a relay, then to `mailto:`, so no enquiry is lost.
@@ -97,7 +96,7 @@ npm run check   # typecheck, lint and formatting, the same gates as CI
 | ---------------- | --------------------------------------------------------------------- |
 | Framework        | React 19, TanStack Start and Router (SSR, file routes, server routes) |
 | Language         | TypeScript (strict)                                                   |
-| Styling          | Tailwind CSS 4, OKLCH design tokens, Radix UI primitives              |
+| Styling          | Tailwind CSS 4, OKLCH design tokens                                   |
 | Motion           | Motion, SVG and SMIL animation                                        |
 | Forms            | React Hook Form and Zod                                               |
 | Email            | Nodemailer over SMTP                                                  |
@@ -119,7 +118,6 @@ src/
 │  ├─ Artwork.tsx          # seeded generative SVG illustrations
 │  ├─ ServiceOrbit.tsx     # services hero
 │  ├─ StackVisual.tsx      # home hero diagram
-│  └─ ui/                  # Radix-based primitives
 ├─ lib/
 │  ├─ site.ts              # brand constants, SEO and JSON-LD helpers
 │  ├─ services-data.ts     # service content
@@ -130,8 +128,7 @@ src/
 ├─ workflows/ci.yml        # typecheck, lint, format and build on every push
 └─ dependabot.yml          # grouped dependency updates
 scripts/
-├─ og-image.mjs            # renders the Open Graph image
-└─ recolor-icons.py        # themes the 3D service icon set
+└─ og-image.mjs            # renders the Open Graph image
 ```
 
 ## Getting started

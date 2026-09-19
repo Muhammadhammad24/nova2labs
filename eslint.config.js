@@ -47,8 +47,8 @@ export default tseslint.config(
     },
   },
   {
-    // UI primitives and providers export their variants and hooks alongside components.
-    files: ["src/components/ui/**", "src/lib/theme.tsx"],
+    // The theme provider exports its hook alongside the component.
+    files: ["src/lib/theme.tsx"],
     rules: { "react-refresh/only-export-components": "off" },
   },
   eslintPluginPrettier,
